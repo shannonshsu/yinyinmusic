@@ -30,6 +30,7 @@ define('PATH', dirname(__FILE__) . DS);
 define('APP', PATH . 'anchor' . DS);
 define('SYS', PATH . 'system' . DS);
 define('EXT', '.php');
+define( '_path', 'http://localhost/yinyin-anchor/themes/shannon/' );
 
 require APP . 'composer_check' . EXT;
 require SYS . 'start' . EXT;
